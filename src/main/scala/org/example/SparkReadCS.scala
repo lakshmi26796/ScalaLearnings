@@ -25,7 +25,7 @@ object SparkReadCS {
     println("count is:" + df1.count())
     if (df1 != null & df1.count > 0) {
       print("data is present")
-      df1.coalesce(1).write.csv("E:\\dataset\\output\\file.csv")
+//      df1.coalesce(1).write.csv("E:\\dataset\\output\\file.csv")
     } else {
       print("data is not present")
     }
